@@ -70,6 +70,7 @@ var newStudent = {
     'eta' : ageStudent
 }
 
+// inserisco il nuovo studente nell'array di oggetti
 studenti.push(newStudent);
 console.log('Nuovo studente');
 for(let i = 0 ; i < studenti.length; i++){
