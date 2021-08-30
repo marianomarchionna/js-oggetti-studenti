@@ -73,8 +73,6 @@ var newStudent = {
 // inserisco il nuovo studente nell'array di oggetti
 studenti.push(newStudent);
 console.log('Nuovo studente');
-for(let i = 0 ; i < studenti.length; i++){
-    for (let key in studenti[i]){
-        console.log('Nome: ' + studenti[i].nome + ' Cognome: ' + studenti[i].cognome + ' Età: ' + studenti[i].eta);  
-    }
+for (let key in studenti){
+    console.log('Nome: ' + studenti[key].nome + ' Cognome: ' + studenti[key].cognome + ' Età: ' + studenti[key].eta);  
 }
